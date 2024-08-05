@@ -21,6 +21,20 @@ h3all.forEach(function(elem){
     })
 })
 
+var crsrelem = document.querySelectorAll("#page4 .elem");
+crsrelem.forEach(function(elem){
+    elem.addEventListener("mouseenter", function(){
+        crsr.style.scale = 3,
+        crsr.style.border = "1px solid #fff",
+        crsr.style.backgroundColor = "transparent"
+    })
+    elem.addEventListener("mouseleave", function(){
+        crsr.style.scale = 1,
+        crsr.style.border = "0px solid #95c11e",
+        crsr.style.backgroundColor = "#95c11e"
+    })
+})
+
 gsap.to("#nav", {
     backgroundColor :"#000",
     height:"110px",
