@@ -340,16 +340,7 @@ video{
     opacity: 1;
     background-size: cover;
 }
-/* #page4 ::selection {
-    content: "WHAT ARE YOU WAITING FOR?";
-    position: absolute;
-    color: #e41717;
-    top: -6px;
-    left: -6px;
-    -webkit-text-stroke: 5px #a8d234; 
-    z-index: -99;
-    background-repeat: none;
-}   */
+
 #page4 h1{
     display: block;
     font-size: 6.4vw;
