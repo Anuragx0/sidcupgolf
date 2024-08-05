@@ -58,7 +58,7 @@ video{
     object-fit: cover;
 }
 #main {
-    background-color: rgb(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.312);
     position: relative;
 }
 

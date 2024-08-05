@@ -115,7 +115,7 @@ gsap.from("#image-dn",{
         scroller:"body",
         // markers:true,
         start:"top 90%",
-        end:"top 65%",
+        end:"top 80%",
         scrub:4
     }
 })
